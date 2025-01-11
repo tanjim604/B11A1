@@ -1,159 +1,195 @@
 .open-sans-font {
-  font-family: "Open Sans", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
-
-header{
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "width" 100;
+  }
+  
+  header{
+    overflow: hidden;
+      width: 1920px;
+  }
+  
+  main{
+      width: 1920px;
+  }
+  
+  .bg{
+      background-color: #F5F5F5;
+  }
+  
+  .nav-title{
+      font-size: 48px;
+      font-weight: bold;
+  }
+  
+  .nav-btn{
+      font-size: 28px;
+      color: #006A50;
+      padding: 22px 44px;
+      border-radius: 8px;
+      background-color: white;
+      border-color: #006A50;  
+      margin-right: 160px;   
+  }
+  .news-content1{
+    display: flex;
+    
+  }
+  .news-content1 img{
+    margin-right: 15px;
+  }
+  .news-content2{
+    display: flex;
+  }
+  .news-content2 img{
+    margin-left: 0;
+  }
+  .news{
+    margin-left: 160px;
+    margin-right: 160px;
     width: 1600px;
-}
-.bg{
-    background-color: #F5F5F5;
-}
-.nav-title{
-    font-size: 32px;
-    font-weight: bold;
-    
-}
-.nav-btn{
-    font-size: 18px;
-    color: #006A50;
-    padding: 15px 30px;
-    border-radius: 8px;
-    background-color: white;
-    border-color: #006A50;  
-    margin-right: 160px;   
-}
-
-.btn{
-    font-size: 18px;
-    font-weight: 600;
-    background-color: #006A50;
-    padding-left: 34px;
-    padding-right: 34px;
-    padding-top: 17px;
-    padding-bottom: 17px;
-    color: white;
-    border-radius: 8px;
-    border: none;
-}
-nav{
-    display: flex;
-    justify-content: space-between;
-    margin-right: 160px;
-    margin-left: 160px;
-    align-items: center;
-}
-.banner{
-    display: flex;
-    margin-left:160px ;
-    margin-right: 160px;
-    background-color: #C6E4D6;
-    border-radius: 24px;
-    padding-left: 60px;
-    padding-right: 60px;
-    max-width: 1280px;
-    max-height: 560px;
-    padding-top: 117px;
-    padding-bottom: 117px;
-}
-.banner-content{
-    max-width: 622px;
-    max-height: 326px;
-    margin-right: 65px;
-   
-}
-.banner-title{
-    font-size: 56px;
-    font-weight: bold;
-    width: 622px;
-    height: 246px;
-}
-.bd{
-    font-size: 24px;
-    font-weight: 500;
-    color: #0E0E0E;
-    opacity: 50%;
-    margin-bottom: -30px;
-}
-.banner-img{
-    padding-right: 60px;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    max-height: 400px;
-    max-width: 474px;
-}
-.vision-title h2{
-    font-size: 40px;
-    font-weight: bold;
-}
-.vision-title p{
-    font-size: 16px;
-    color: #0E0E0E;
-    opacity: 80%;
-    
-}
-.vision{
-    margin-left: 160px;
-    margin-right: 160px;
-    max-width: 1280px;
-}
-.vision-items{
-    display: flex;
-    width: 1280px;
-}
-.vision-item1{
-    background-color: #5490F5;
-    margin-right: 24px;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-bottom: 97px;
-    padding-top: 32px;
-    border-radius: 16px;
-}
-
-.vision-item2{
-    background-color: #C6E4D6;
-    margin-right: 24px;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-bottom: 97px;
-    padding-top: 32px;
-    border-radius: 16px;
-    
-}
-.vision-item3{
-    background-color: #F7EBCF;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-bottom: 97px;
-    padding-top: 32px;
-    border-radius: 16px;
-}
-.info{
-    font-size: 16px;
-    color: #0E0E0E;
-    opacity: 70%;
-}
-.younus{
-   background-color: #FFFFFF;
-   background-image: url(ass1/assets/quote-bg.png);
-   background-repeat: no-repeat;
-   background-position: 50px 15px;
-   padding: 24px 48px;
-   margin-top: 32px;
-   width: 1280px;
-   
-}
-.name {
-    font-size: 20px;
-    font-weight: 700;
-    opacity: 80%;
-    color: #0E0E0E;
-}
-main{
-    width: 1280px;
-    margin: 0;
-}
+  }
+  .btn{
+      font-size: 28px;
+      font-weight: 600;
+      background-color: #006A50;
+      padding-left: 51px;
+      padding-right: 51px;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      color: white;
+      border-radius: 8px;
+      border: none;
+  }
+  
+  nav{
+      display: flex;
+      justify-content: space-between;
+      margin-right: 0px;
+      margin-left: 160px;
+      margin-top: 140px;
+      align-items: center;
+  }
+  
+  .banner{
+      display: flex;
+      margin-left:160px ;
+      margin-right: 160px;
+      background-color: #C6E4D6;
+      border-radius: 24px;
+      padding-left: 135px;
+      padding-right: 135px;
+      height: 600px;
+      padding-top: 175px;
+      padding-bottom: 262px;
+  }
+  
+  .banner-content{
+      max-width: 933px;
+      max-height: 489px;
+      margin-right: 65px;
+  }
+  
+  .banner-title{
+      font-size: 70px;
+      font-weight: bold;
+      width: 933px;
+      height: 369px;
+  }
+  
+  .bd{
+      font-size: 36px;
+      font-weight: 500;
+      color: #0E0E0E;
+      opacity: 50%;
+      margin-bottom: -45px;
+  }
+  
+  .banner-img{
+      padding-right: 90px;
+      padding-top: 120px;
+      padding-bottom: 120px;
+      max-height: 600px;
+      max-width: 711px;
+  }
+  
+  .vision-title h2{
+      font-size: 60px;
+      font-weight: bold;
+  }
+  
+  .vision-title p{
+      font-size: 24px;
+      color: #0E0E0E;
+      opacity: 80%;
+  }
+  
+  .vision{
+      margin-left: 160px;
+      margin-right: 160px;
+      width: 1600px;
+  }
+  
+  .vision-items{
+      display: flex;
+      justify-content: space-between
+  }
+  
+  .vision-item1{
+      background-color: #5490F5;
+      margin-right: 36px;
+      padding-left: 48px;
+      padding-right: 48px;
+      padding-bottom: 146px;
+      padding-top: 48px;
+      border-radius: 16px;
+  }
+  
+  .vision-item2{
+      background-color: #C6E4D6;
+      margin-right: 36px;
+      padding-left: 48px;
+      padding-right: 48px;
+      padding-bottom: 146px;
+      padding-top: 48px;
+      border-radius: 16px;
+  }
+  
+  .vision-item3{
+      background-color: #F7EBCF;
+      padding-left: 48px;
+      padding-right: 48px;
+      padding-bottom: 146px;
+      padding-top: 48px;
+      border-radius: 16px;
+  }
+  
+  .info{
+      font-size: 24px;
+      color: #0E0E0E;
+      opacity: 70%;
+  }
+  
+  .younus{
+     background-color: #FFFFFF;
+     background-image: url(ass1/assets/quote-bg.png);
+     background-repeat: no-repeat;
+     background-position: 75px 22px;
+     padding: 48px 96px;
+     margin-top: 48px;
+     width:1418px;
+  }
+  .name {
+      font-size: 30px;
+      font-weight: 700;
+      opacity: 80%;
+      color: #0E0E0E;
+  }
+  
+  main{
+      width: 1280px;
+      margin: 0;
+  }
+  
