@@ -11,6 +11,7 @@
 .nav-title{
     font-size: 32px;
     font-weight: bold;
+    
 }
 .nav-btn{
     font-size: 18px;
@@ -18,8 +19,21 @@
     padding: 15px 30px;
     border-radius: 8px;
     background-color: white;
-    border-color: #006A50;
-     
+    border-color: #006A50;  
+    margin-right: 160px;   
+}
+
+.btn{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #006A50;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    color: white;
+    border-radius: 8px;
+    border: none;
 }
 nav{
     display: flex;
@@ -27,6 +41,88 @@ nav{
     margin-right: 160px;
     margin-left: 160px;
     align-items: center;
+}
+.banner{
+    display: flex;
+    margin-left:160px ;
+    margin-right: 160px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding-left: 60px;
+    padding-right: 60px;
+    max-width: 1280px;
+    max-height: 560px;
+    padding-top: 117px;
+    padding-bottom: 117px;
+}
+.banner-content{
+    max-width: 622px;
+    max-height: 326px;
+    margin-right: 65px;
+   
+}
+.banner-title{
+    font-size: 56px;
+    font-weight: bold;
+    width: 622px;
+    height: 246px;
+}
+.bd{
+    font-size: 24px;
+    font-weight: 500;
+    color: #0E0E0E;
+    opacity: 50%;
+    margin-bottom: -30px;
+}
+.banner-img{
+    padding-right: 60px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    max-height: 400px;
+    max-width: 474px;
+}
+.vision-title h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.vision-title p{
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 80%;
     
+}
+.vision{
+    margin-left: 160px;
+    margin-right: 160px;
+    max-width: 1280px;
+}
+.vision-items{
+    display: flex;
+}
+.vision-item1{
+    background-color: #5490F5;
+    margin-right: 24px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 97px;
+    padding-top: 32px;
+    border-radius: 16px;
+}
 
+.vision-item2{
+    background-color: #C6E4D6;
+    margin-right: 24px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 97px;
+    padding-top: 32px;
+    border-radius: 16px;
+}
+.vision-item3{
+    background-color: #F7EBCF;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 97px;
+    padding-top: 32px;
+    border-radius: 16px;
 }
