@@ -106,7 +106,60 @@
       opacity: 50%;
       margin-bottom: -45px;
   }
-  
+  .donation{
+    margin-left: 160px;
+    margin-right: 160px;
+    padding: 0px 50px;
+    width: 1500px;
+    align-items: center;
+  }
+  .type-amount{
+    display: grid;
+    
+  }
+ 
+  .amount button{
+    height: 50px;
+    width: 200px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 16px;
+    border: none;
+    
+
+  }
+
+  .default-color{
+    background-color:#61CF9C;
+  }
+  .other-amount{
+    width: 90%;
+    margin: 0 auto;
+    height: 50px;
+    align-items: center;
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .btn-done{
+    width: 20%;
+     text-align: center;
+     margin: 0 auto;
+     
+  }
+
+  .btn-done:hover{
+    background-color: #5490F5;
+    color: rgb(171, 232, 49);
+  }
+  .btn:hover{
+    background-color: #d11616;
+    color: rgb(171, 232, 49);
+  }
+  .amount{
+    display: flex;
+    justify-content: space-around;
+  }
   .banner-img{
       padding-right: 90px;
       padding-top: 120px;
@@ -165,6 +218,15 @@
       padding-top: 48px;
       border-radius: 16px;
   }
+  .font-set{
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 70%;
+  }
+
+  .donation h2{
+    text-align: center;
+  }
   
   .info{
       font-size: 24px;
@@ -192,4 +254,42 @@
       width: 1280px;
       margin: 0;
   }
-  
+  .subscribe{
+    margin-left: 160px;
+    margin-right: 160px;
+    width: 1600px;
+    background-color: #C6E4D6;
+    text-align: center;
+    padding-top: 25px;
+    margin-top: 20px;
+    padding-bottom: 25px;
+  }
+  .btn-new{
+    width: 150px;
+    height: 56px;
+    padding: 20px 17px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #006A50;
+    border: none;
+    color: white;
+    
+  }
+  .new-input{
+    height: 50px;
+    width: 250px;
+  }
+  .sub{
+    display: flex;
+    justify-content: center;
+    
+  }
+  footer h2{
+    text-align: center;
+  }
+
+  .icons{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
