@@ -79,15 +79,15 @@
       margin-right: 160px;
       background-color: #C6E4D6;
       border-radius: 24px;
-      padding-left: 135px;
-      padding-right: 135px;
-      height: 600px;
-      padding-top: 175px;
-      padding-bottom: 262px;
+      padding-left: 70px;
+      padding-right: 70px;
+      justify-content: space-between;
+      padding-top: 60px;
+      padding-bottom: 60px;
   }
   
   .banner-content{
-      max-width: 933px;
+      width: 50%;
       max-height: 489px;
       margin-right: 65px;
   }
@@ -165,7 +165,7 @@
       padding-top: 120px;
       padding-bottom: 120px;
       max-height: 600px;
-      max-width: 711px;
+      max-width: 50%;
   }
   
   .vision-title h2{
